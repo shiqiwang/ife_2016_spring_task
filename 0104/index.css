@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.greyBackground {
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    overflow: hidden;
+}
+
+.greyBackground .leftCircle,
+.greyBackground .rightCircle {
+    width: 100px;
+    height: 100px;
+    background-color: #fc0;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    
+}
+
+.greyBackground .leftCircle {
+    position: absolute;
+    left: -50px;
+    top: -50px;
+}
+
+.greyBackground .rightCircle {
+    position: absolute;
+    left: 350px;
+    top: 150px;
+}

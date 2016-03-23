@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: rgb(222, 222, 222);
+    font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.navigationBar {
+    height: 60px;
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+}
+
+.navigationBar .logo {
+    float: left;
+    margin-left: 10px;
+}
+
+.navigationBar .navList {
+    float: right;
+    color: #fff;
+}
+
+.navigationBar .navList li {
+    display: inline;
+}
+
+.navigationBar .navList a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navigationBar .navList a:hover {
+    color: #aaa;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.main .mainBody {
+    float: left;
+    margin: 20px 400px 0 20px;
+}
+
+.main .sideBody {
+    height: 300px;
+    width: 360px;
+    position: absolute;
+    top: 80px; right: 20px;
+    background-color: #fff;
+}
+
+.footBar {
+    min-width: 980px;
+    background-color: rgb(51, 51, 51);
+    height: 70px;
+}
+
+.mainArticle {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.listProject {
+    list-style: none;
+    padding-left: 0;
+}
+
+#pictureSec img {
+    margin-right: 20px;
+}
+
+.myTable {
+    width: 100%;
+} 
+
+.myTable thead {
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+}
+
+.myTable tbody {
+    text-align: center;
+}
+
+.myTable tfoot {
+    background-color: rgb(204, 204, 204);
+}
+
+.myTable td {
+    border: 1px solid #eee;
+}
+
+.sideBody .sideBodyHeader {
+    border-left: 3px solid #eee;
+    height: 30px;
+    line-height: 30px;
+}
