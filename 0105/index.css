@@ -51,7 +51,6 @@ body {
 }
 
 .main .sideBody {
-    height: 300px;
     width: 360px;
     position: absolute;
     top: 80px; right: 20px;
@@ -106,4 +105,42 @@ body {
     line-height: 40px;
     margin-left: 20px;
     text-align: center;
+}
+
+.sideBody form {
+    padding-left: 20px;
+}
+
+.sideBody form input,
+.sideBody form select,
+.sideBody form textarea {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sideBody form span {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+
+.sideBody form p {
+    text-align: center;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #ccc;
+    margin: 0 0 10px 0;
+}
+
+.sideBody form #submitInfo {
+    margin: 10px auto;
+    width: 320px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(51, 85, 208);
+    border-radius: 10px;
+}
+
+.sideBody form textarea {
+    margin-left: 0;
 }

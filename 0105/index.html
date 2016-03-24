@@ -113,19 +113,30 @@
         <div class="sideBody">
             <h3 class="sideBodyHeader">这里以后是一个侧栏，这是标题</h3>
             <form action="" method>
-                邮箱
+                <span>邮箱</span>
                 <input type="email" name="userEmail" value="这是一个文本输入框"/>
                 <p>邮箱地址请按要求输入</p>
-                密码
-                <input type="password" name="userPassword" />
-                确认密码
+                <span>密码</span>
+                <input type="password" name="userPassword" /> <br />
+                <span>确认密码</span>
                 <input type="password" name="userPasswordConfirm" />
                 <p>密码为6-16位英文或数字</p>
-                性别
+                <span>性别</span>
                 <input type="radio" value="female" name="sex"/>女
-                <input type="radio" value="male" name="sex"/>男
-                城市
-                
+                <input type="radio" value="male" name="sex"/>男 <br />
+                <span>城市</span>
+                <select name="city" id="city">
+                    <option value="beijing" select="selected">北京</option>
+                    <option value="shanghai">上海</option>
+                    <option value="chengdu">成都</option>
+                </select> <br />
+                <span>爱好</span>
+                <input type="checkbox" value="running" name="hobbies" />跑步
+                <input type="checkbox" value="music" name="hobbies" />音乐
+                <input type="checkbox" value="boxing" name="hobbies" />拳击 <br />
+                <span id="describe">个人描述</span>
+                <textarea name="personalDescription" id="personalDescribe" cols="30" rows="10"></textarea>
+                <input type="submit" value="提交" id="submitInfo" />
             </form>
         </div>
     </div>
