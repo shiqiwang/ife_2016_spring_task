@@ -69,6 +69,12 @@ body {
     margin-bottom: 20px;
 }
 
+.mainArticle .authorName,
+.mainArticle .publishTime {
+    font-size: 14px;
+    color: #ccc;
+}
+
 .listProject {
     list-style: none;
     padding-left: 0;
