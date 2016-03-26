@@ -20,10 +20,74 @@ body {
     width: 892px;
     margin: 0 auto;
     border-bottom: 2px solid #938e8c;
+    overflow: hidden;
 }
 
 .head .baiduIfeLogo {
+    float: left;
     width: 110px;
     height: 61px;
     background-color: rgb(235, 83, 79);
+    text-align: center;
 }
+
+.head .baiduIfeLogo .domain {
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    font-family: SimHei;
+    margin-top: 40px;
+}
+
+.head .dates {
+    float: right;
+    font-size: 12px;
+    font-family: SimHei;
+    color: #d45d5c;
+    margin-top: 40px;
+} 
+
+.topmostBar {
+    height: 301px;
+    width: 892px;
+    margin: 35px auto;
+    overflow: hidden;
+}
+
+.topmostBar .topmostImage {
+    float: left;
+    height: 301px;
+    width: 641px;
+    background-image: url(0106bigPic.jpg);
+    /*解决内部元素因为inline风格出现的空隙问题*/
+    font-size: 0;
+}
+
+.topmostBar .topmostImage .left,
+.topmostBar .topmostImage .right {
+    display: inline-block;
+    height: 301px;
+    width: 191px;
+}
+
+.topmostBar .topmostImage .left {
+    background-color: rgba(90, 186, 104, 0.4);
+}
+
+.topmostBar .topmostImage .right {
+    background-color: rgba(228, 119, 132, 0.4);
+}
+
+.topmostBar .topmostImage .middle {
+    display: inline-block;
+    height: 301px;
+    width: 259px;
+}
+
+.topmostBar .topmostSideBar {
+    float: right;
+    width: 203px;
+    height: 301px;
+    border-top: 2px solid #cc8091; 
+}
+
