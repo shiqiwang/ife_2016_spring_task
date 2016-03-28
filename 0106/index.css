@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: "Microsoft YaHei";
+    text-align: justify;
 }
 
 * {
@@ -90,4 +92,342 @@ body {
     height: 301px;
     border-top: 2px solid #cc8091; 
 }
+
+.topmostBar .topmostSideBar .aboutTechnologe::first-letter {
+    font-size: 24px;
+}
+
+.topmostBar .topmostSideBar .aboutTechnologe {
+    display: inline-block;
+    text-align: left;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    border-bottom: 2px solid #000;
+}
+
+.topmostBar .topmostSideBar .technologeContent {
+    font-size: 12px;
+    color: #676767;
+    font-family: DFKai-SB;
+    margin-bottom: 0;
+}
+
+.topmostBar .topmostSideBar .num700 {
+    font-size: 100px;
+    color: #75b86b;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.topmostBar .topmostSideBar .num32 {
+    float: left;
+    font-size: 45px;
+    color: #cc8091;
+}
+
+.topmostBar .topmostSideBar .cssDescribe {
+    display: inline;
+}
+
+.topmostBar .topmostSideBar .fontCss {
+    font-size: 21px;
+    color: #cc8091;
+    padding-top: 8px;
+}
+
+.topmostBar .topmostSideBar .fontCssDes {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.articleDiv {
+    width: 892px;
+    margin: 0 auto;
+}
+
+.firstArticle {
+    width: 641px;
+    height: 250px;
+    margin: 0;
+    overflow: hidden;
+    font-size: 12px;
+    font-family: STSong;
+    color: #767777;
+    margin-right: 16px;
+    line-height: 16px;
+}
+
+.firstArticle .whatIsF2E {
+    width: 230px;
+    float: left;
+}
+
+.firstArticle .howF2E {
+    width: 160px;
+    float: right;
+}
+
+.firstArticle .whenF2E {
+    float: left;
+    width: 205px;
+    margin-left: 22px;
+}
+
+.firstArticle .whatIsF2E h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #418c59;
+    font-family: "Microsoft YaHei";
+}
+
+.firstArticle .whenF2E h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #d2994f;
+    font-family: "Microsoft YaHei";
+}
+
+.firstArticle .howF2E h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #cc7680;
+    font-family: "Microsoft YaHei";
+}
+
+.firstArticle .howF2E p {
+    margin: 0 0 5px 0;
+}
+
+.firstArticle .howF2E ul {
+    font-family: "Microsoft YaHei";
+    list-style: none;
+    padding-left: 0;
+}
+
+.firstArticle .howF2E ul li {
+    margin-bottom: 5px;
+}
+
+.firstArticle .howF2E ul li span{
+    font-style: italic;
+    color: rgba(205, 64, 72, 0.7);
+}
+
+.secondAndThirdArticle {
+    width: 892px;
+    height: 645px;
+    margin: 0 auto;
+    border-bottom: 1px solid #838e8c;
+}
+
+.secondAndThirdArticle .leftOne {
+    float: left;
+    width: 415px;
+}
+
+.leftOne article h1 {
+    font-size: 42px;
+    color: #11456b;
+    font-family: SimHei;
+    font-weight: bold;
+    line-height: 1em;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.leftOne article h1 span {
+    font-size: 64px;
+    font-family: SimHei;
+    color: #f5e327;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.leftOne article h2 {
+    font-size: 33px;
+    color: #11456b;
+    font-family: SimHei;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #11456b;
+}
+
+.leftOne article .firstPha::first-letter {
+    float: left;
+    font-size: 70px;
+    line-height: 70px;
+    color: #f5e327;
+    font-family: "Microsoft YaHei";
+}
+
+.leftOne article p {
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+    font-family: STSong;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.leftOne article .secondArticlePic {
+    shape-outside: border-box;
+    float: right;
+    margin-top: 6em;
+    border: 10px solid transparent;
+    border-right: 0;
+}
+
+.rightOne {
+    float: right;
+    width: 458px;
+}
+
+.rightOne .rightOneTop {
+    position: relative;
+    width: 458px;
+    height: 257px;
+    background-image: url(0106thirdArticlePic.jpg);
+    background-repeat: no-repeat;
+}
+.rightOne .rightOneTop .ArticleHeadBar {
+    width: 458px;
+    height: 61px;
+    padding-top: 9px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(00, 00, 00, 0.3);
+}
+
+.rightOneTop .ArticleHeadBar div {
+    height: 44px;
+    line-height: 44px;
+    border-left: 3px solid #72b16a;
+    color: #fff;
+    font-size: 26px;
+    margin-left: 40px;
+    padding-left: 15px;
+}
+
+.rightOneTop .ArticleHeadBar div sub {
+    color: #72b16a;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 5px;
+}
+
+.rightOne .rightOneBottom {
+    height: 318px;
+    background-color: rgb(240, 238, 211);
+    margin-top: 30px;
+}
+
+.rightOne .rightOneBottom ul {
+    padding-top: 30px;
+    list-style: none;
+    color: #5a5b5b;
+    font-size: 16px;
+}
+
+.rightOne .rightOneBottom ul li {
+    margin-bottom: 15px;
+}
+
+.rightOne .rightOneBottom ul li span{
+    font-size: 12px;
+    font-style: italic; 
+}
+
+.rightOne .rightOneBottom ul .triangle {
+    display: inline-block;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #5a5b5b;
+    margin-right: 5px;
+}
+
+.bottomContent {
+    height: 178px;
+    position: relative;
+}
+
+.bottomContent .redBox {
+    position: absolute;
+    left: 0; bottom: 0;
+    height: 160px;
+    width: 260px;
+    background-color: rgb(235, 83, 79);
+}
+
+.bottomContent .redBox .num0{
+    margin: 10px;
+    float: left;
+    font-size: 110px;
+    color: #fff;
+}
+
+.bottomContent .redBox .bar {
+    margin: 37px 0;
+    padding-left: 10px;
+    float: right;
+    width: 170px;
+    height: 86px;
+    border-left: 2px solid #fff;
+}
+
+.bottomContent .redBox .bar .number {
+    margin-top: 10px;
+    font: 24px;
+    font-family: SimHei;
+    font-style: italic;
+    color: #fff;
+}
+
+.bottomContent .redBox .bar .helloWorld {
+    font-size: 12px;
+    color: #fff;
+    font-family: SimHei;
+} 
+
+.bottomContent .rightHello {
+    width: 198px;
+    height: 160px;
+    position: absolute;
+    right: 0; bottom: 0;
+    padding: 10px;
+}
+
+.bottomContent .rightHello {
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family: SimHei;
+}
+
+.bottomContent .rightHello span {
+    display: inline-block;
+    text-align: center;
+    font-size: 72px;
+    color: #d45d5c;
+    height: 0; width: 0;
+}
+
+.foot {
+    width: 892px;
+    margin: 0 auto;
+    color: #d45d5c;
+    font-size: 12px;
+    font-family: SimHei;
+}
+
+.foot div {
+    float: right;
+}
+
+
+
 
