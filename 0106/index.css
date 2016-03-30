@@ -410,12 +410,10 @@ body {
 
 .bottomContent .rightHello span {
     display: inline-block;
-    text-align: center;
     font-size: 72px;
     color: #d45d5c;
     height: 0; width: 0;
 }
-
 .foot {
     width: 892px;
     margin: 0 auto;
