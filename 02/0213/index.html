@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ife20160213</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        div {
+            margin-top: 20px;
+        }
+        
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <label>请输入北京今天的空气质量：<input id="airQuality" type="text" /></label>
+    <button id="confirmButton">确认填写</button>
+    <div>您输入的值是：<span id="airQualityDisplay">尚无录入</span></div>
+    <script type="text/javascript">
+        (function() {
+            var confirmButton = document.getElementById("confirmButton");
+            confirmButton.addEventListener("click", function() {
+                var airQuality = document.getElementById("airQuality").value;
+                if(airQuality != "") {
+                    var airQualityDis = document.getElementById("airQualityDisplay");
+                    airQualityDis.innerHTML = airQuality;
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

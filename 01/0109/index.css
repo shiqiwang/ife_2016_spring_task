@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.head {
+    height: 57px;
+    background-color: rgb(33, 137, 191);
+}
+
+.mainBody {
+    overflow: hidden;
+}
+
+.sideBar {
+    float: left;
+    width: 261px;
+    height: 1213px;
+    background-color: rgb(43, 46, 61);
+}
+
+.mainBar {
+    position: absolute;
+    top: 57px; left: 261px; right: 0;
+    height: 1213px;
+    background-color: rgb(237, 237, 237);
+}
