@@ -1,0 +1,14 @@
+label {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+td {
+   width: 100px;
+   text-align: center; 
+}
+
+.removeTr:hover {
+    cursor: pointer;
+    color: deepskyblue;
+}
