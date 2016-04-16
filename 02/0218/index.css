@@ -1,0 +1,14 @@
+.dataListItem {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 50px;
+    background-color: red;
+    text-align: center;
+    margin: 10px 0 0 10px;
+}
+
+.dataListItem:hover {
+    background-color: indianred;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+#dataList {
+    margin-top: 20px;
+}
+
+.dataListItem {
+    display: inline-block;
+    width: 20px;
+    background-color: red;
+    border: 1px solid #ccc;
+}
+
+#sortedDataList {
+    margin-top: 20px;
+}
