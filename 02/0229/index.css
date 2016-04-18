@@ -1,0 +1,50 @@
+body {
+    font-size: 30px;
+    font-family: "microsoft yahei";
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+}
+
+.box {
+    margin: 100px;
+}
+
+#nameIn {
+    height: 80px;
+    width: 500px;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 10px;
+    border: solid #ccc;
+    font-family: "microsoft yahei";
+    font-weight: bold;
+    padding: 0 30px;
+    margin-left: 30px;
+}
+
+#checkName {
+    height: 80px;
+    width: 100px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 120, 180);
+    font-family: "microsoft yahei";
+    font-weight: bold;
+    color: #fff;
+    vertical-align: middle;
+}
+
+#message {
+    margin: 0;
+    font-size: 20px;
+    padding-left: 100px;
+    height: 100px;
+    padding-top: 10px;
+}

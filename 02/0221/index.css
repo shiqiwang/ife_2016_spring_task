@@ -1,0 +1,24 @@
+#tagDataList, #hobbyDataList {
+    height: 50px;
+}
+
+#hobbyDataIn {
+    height: 100px;
+    width: 200px;
+}
+
+.dataListItem {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    background-color: red;
+    text-align: center;
+    margin: 10px 0 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dataListItem:hover {
+    background-color: indianred;
+    cursor: pointer;
+}
